@@ -1,0 +1,82 @@
+aid: pantera-capital
+name: Pantera Capital
+description: >-
+  Pantera Capital is a U.S.-based investment firm founded in 2003 by Dan Morehead (former Tiger
+  Management head of macro trading and CFO) that pivoted in 2013 to become the first U.S. institutional
+  asset manager focused exclusively on blockchain technology and digital assets. Headquartered in the San
+  Francisco Bay Area with offices in New York and San Juan, Puerto Rico, the firm launched the first
+  cryptocurrency fund in the United States in 2013 and now manages roughly $3.5B-$3.8B across multiple
+  fund strategies: a Bitcoin Fund for pure BTC exposure, an Early-Stage Token Fund, a Liquid Token Fund,
+  a Blockchain Fund, and a series of Venture Funds for equity investments. Pantera backs token projects,
+  exchanges, DeFi and infrastructure teams, wallets, custodians, and ecosystem builders from pre-launch
+  token stage through growth-stage equity, writing checks from roughly $500K to $50M+ and having led about
+  half of its 200+ investments since 2013. Notable investments include Coinbase, Circle, Ripple, Uniswap,
+  Bitstamp, Polkadot, Near, Filecoin, StarkWare, and Ondo Finance.
+image: https://panteracapital.com/favicon.ico
+x-type: venture-capital
+x-category: Venture Capital
+created: '2026-07-17'
+modified: '2026-07-17'
+specificationVersion: '0.20'
+tags:
+  - Venture Capital
+  - Crypto
+  - Blockchain
+  - Web3
+  - DeFi
+  - Digital Assets
+  - Seed
+  - Early Stage
+  - Growth Equity
+  - Token
+  - Infrastructure
+  - North America
+apis: []
+common:
+  - type: Website
+    url: https://panteracapital.com/
+  - type: Portfolio
+    url: https://panteracapital.com/portfolio/
+  - type: Portfolio
+    url: portfolio/pantera-capital-portfolio.yml
+  - type: Team
+    url: https://panteracapital.com/team/
+  - type: Team
+    url: team/pantera-capital-team.yml
+  - type: InvestmentThesis
+    url: https://panteracapital.com/firm/
+  - type: Blog
+    url: https://panteracapital.com/article/
+  - type: Jobs
+    url: https://jobs.panteracapital.com/
+  - type: Contact
+    url: https://panteracapital.com/contact/
+  - type: Crunchbase
+    url: https://www.crunchbase.com/organization/pantera-capital
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/pantera-capital
+  - type: Twitter
+    url: https://twitter.com/PanteraCapital
+  - type: Features
+    data:
+      - "Stage: Pre-launch token, Seed, Early-stage, through Growth-stage equity"
+      - "Typical check: ~$500K-$50M+ across fund strategies"
+      - "Sectors: blockchain, crypto, digital assets, DeFi, infrastructure, exchanges, wallets/custody, Web3 gaming"
+      - "Geography: Global; HQ San Francisco Bay Area with New York and San Juan (Puerto Rico) offices"
+      - "AUM: ~$3.5B-$3.8B (self-reported, early 2026)"
+      - "Fund strategies: Bitcoin Fund, Early-Stage Token Fund, Liquid Token Fund, Blockchain Fund, Venture Funds"
+      - "Founded: 2003 (blockchain focus since 2013)"
+      - "HQ: San Francisco Bay Area, California, USA"
+    sources:
+      - https://panteracapital.com/firm/
+      - https://en.wikipedia.org/wiki/Pantera_Capital
+      - https://www.crunchbase.com/organization/pantera-capital
+    updated: '2026-07-17'
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
+    url: https://apievangelist.com/
+  - FN: APIs.json
+    url: https://apisjson.org/
+  - FN: Pantera Capital
+    url: https://panteracapital.com/
