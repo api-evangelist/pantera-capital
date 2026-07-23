@@ -3,9 +3,9 @@ method: searched
 source: https://panteracapital.com/portfolio/
 summary:
   portfolio_total: 191
-  in_network: 36
-  api_providers: 26
-  missing: 155
+  in_network: 191
+  api_providers: 62
+  missing: 0
   stubs_created: 0
 companies:
 - name: 0x
@@ -31,25 +31,28 @@ companies:
   sector: crypto
   status: active
   source: https://panteracapital.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: abra
+  slug: abra
+  matched_by: domain
 - name: Acala
   url: https://acala.network/
   sector: crypto
   status: active
   source: https://panteracapital.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: acala
+  slug: acala
+  matched_by: domain
 - name: Accountable
   url: https://accountable.capital/
   sector: crypto
   status: active
   source: https://panteracapital.com/portfolio/
-  in_network: false
-  is_api_provider: false
-  suggested_slug: accountable
+  in_network: true
+  is_api_provider: true
+  slug: accountable
+  matched_by: domain
 - name: Alchemy
   url: https://alchemyapi.io/
   sector: crypto
@@ -64,73 +67,82 @@ companies:
   sector: crypto
   status: active
   source: https://panteracapital.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: altius-labs
+  slug: altius-labs
+  matched_by: domain
 - name: Amber Group
   url: https://www.ambergroup.io/
   sector: crypto
   status: active
   source: https://panteracapital.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: amber-group
+  slug: amber-group
+  matched_by: domain
 - name: Amp
   url: https://amptoken.org/
   sector: crypto
   status: active
   source: https://panteracapital.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: amp
+  slug: amp
+  matched_by: name-slug
 - name: Ampleforth
   url: https://www.ampleforth.org/
   sector: crypto
   status: active
   source: https://panteracapital.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: ampleforth
+  slug: ampleforth
+  matched_by: domain
 - name: Anchor Protocol
   url: https://anchorprotocol.com/
   sector: crypto
   status: dead
   source: https://panteracapital.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: anchor-protocol
+  slug: anchor-protocol
+  matched_by: domain
 - name: Anchorage Digital
   url: https://anchorage.com/
   sector: crypto
   status: active
   source: https://panteracapital.com/portfolio/
-  in_network: false
-  is_api_provider: false
-  suggested_slug: anchorage-digital
+  in_network: true
+  is_api_provider: true
+  slug: anchorage
+  matched_by: domain
 - name: Ancient8
   url: https://ancient8.gg/
   sector: crypto
   status: active
   source: https://panteracapital.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: ancient8
+  slug: ancient8
+  matched_by: domain
 - name: Andalusia Labs
   url: https://andalusia-labs.com/
   sector: crypto
   status: active
   source: https://panteracapital.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: andalusia-labs
+  slug: andalusia-labs
+  matched_by: domain
 - name: Angelic
   url: https://www.angelicthegame.com/
   sector: crypto
   status: active
   source: https://panteracapital.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: angelic
+  slug: angelic
+  matched_by: domain
 - name: Ankr
   url: https://www.ankr.com/
   sector: crypto
@@ -145,9 +157,10 @@ companies:
   sector: crypto
   status: active
   source: https://panteracapital.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: antic
+  slug: antic
+  matched_by: domain
 - name: API3
   url: https://api3.org/
   sector: crypto
@@ -162,17 +175,19 @@ companies:
   sector: crypto
   status: active
   source: https://panteracapital.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: april
+  slug: april
+  matched_by: domain
 - name: Offchain Labs (Arbitrum)
   url: https://offchainlabs.com/
   sector: crypto
   status: active
   source: https://panteracapital.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: offchain-labs-arbitrum
+  slug: offchain-labs-arbitrum
+  matched_by: domain
 - name: Arcade
   url: https://www.arcade.xyz/
   sector: crypto
@@ -196,57 +211,64 @@ companies:
   sector: crypto
   status: active
   source: https://panteracapital.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: aurora
+  slug: aurora
+  matched_by: domain
 - name: Autolotto
   url: https://lottery.com/
   sector: crypto
   status: active
   source: https://panteracapital.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: autolotto
+  slug: autolotto
+  matched_by: domain
 - name: Autonomys
   url: https://www.autonomys.xyz/
   sector: crypto
   status: active
   source: https://panteracapital.com/portfolio/
-  in_network: false
-  is_api_provider: false
-  suggested_slug: autonomys
+  in_network: true
+  is_api_provider: true
+  slug: autonomys
+  matched_by: domain
 - name: AZA Finance
   url: https://www.azafinance.com/
   sector: crypto
   status: active
   source: https://panteracapital.com/portfolio/
-  in_network: false
-  is_api_provider: false
-  suggested_slug: aza-finance
+  in_network: true
+  is_api_provider: true
+  slug: aza-finance
+  matched_by: domain
 - name: Azra Games
   url: https://www.azragames.com/
   sector: crypto
   status: active
   source: https://panteracapital.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: azra-games
+  slug: azra-games
+  matched_by: domain
 - name: B3
   url: https://b3.fun/
   sector: crypto
   status: active
   source: https://panteracapital.com/portfolio/
-  in_network: false
-  is_api_provider: false
-  suggested_slug: b3
+  in_network: true
+  is_api_provider: true
+  slug: b3
+  matched_by: domain
 - name: Bakkt
   url: https://www.bakkt.com/
   sector: crypto
   status: ipo
   source: https://panteracapital.com/portfolio/
-  in_network: false
-  is_api_provider: false
-  suggested_slug: bakkt
+  in_network: true
+  is_api_provider: true
+  slug: bakkt
+  matched_by: domain
 - name: Balancer
   url: https://balancer.exchange/#/swap
   sector: crypto
@@ -261,49 +283,55 @@ companies:
   sector: crypto
   status: active
   source: https://panteracapital.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: based
+  slug: based
+  matched_by: domain
 - name: BCB Group
   url: https://bcbgroup.io/
   sector: crypto
   status: active
   source: https://panteracapital.com/portfolio/
-  in_network: false
-  is_api_provider: false
-  suggested_slug: bcb-group
+  in_network: true
+  is_api_provider: true
+  slug: bcb-group
+  matched_by: domain
 - name: Bgogo
   url: https://bgogo.com/
   sector: crypto
   status: active
   source: https://panteracapital.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: bgogo
+  slug: bgogo
+  matched_by: domain
 - name: BitAccess
   url: https://bitaccess.ca/
   sector: crypto
   status: active
   source: https://panteracapital.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: bitaccess
+  slug: bitaccess
+  matched_by: domain
 - name: BitClout (DeSo)
   url: https://bitclout.com/
   sector: crypto
   status: active
   source: https://panteracapital.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: bitclout-deso
+  slug: bitclout-deso
+  matched_by: name-slug
 - name: BitDAO
   url: https://www.bitdao.io/
   sector: crypto
   status: active
   source: https://panteracapital.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: bitdao
+  slug: bitdao
+  matched_by: domain
 - name: BitGo
   url: https://www.bitgo.com/
   sector: crypto
@@ -318,9 +346,10 @@ companies:
   sector: crypto
   status: active
   source: https://panteracapital.com/portfolio/
-  in_network: false
-  is_api_provider: false
-  suggested_slug: bitoasis
+  in_network: true
+  is_api_provider: true
+  slug: bitoasis
+  matched_by: domain
 - name: Bitso
   url: https://bitso.com/
   sector: crypto
@@ -344,42 +373,46 @@ companies:
   sector: crypto
   status: acquired
   source: https://panteracapital.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: blockfolio
+  slug: blockfolio
+  matched_by: domain
 - name: Bloom
   url: https://bloom.co/
   sector: crypto
   status: active
   source: https://panteracapital.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: bloom
+  slug: bloom
+  matched_by: domain
 - name: bloXroute
   url: https://bloxroute.com/
   sector: crypto
   status: active
   source: https://panteracapital.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: bloxroute
+  slug: bloxroute
+  matched_by: domain
 - name: Braavos
   url: https://braavos.app/
   sector: crypto
   status: active
   source: https://panteracapital.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: braavos
+  slug: braavos
+  matched_by: domain
 - name: Braintrust
   url: https://www.usebraintrust.com/
   sector: crypto
   status: active
   source: https://panteracapital.com/portfolio/
-  slug: braintrust
+  slug: usebraintrust
   in_network: true
   is_api_provider: true
-  matched_by: name-slug
+  matched_by: domain
 - name: Brave
   url: https://brave.com/
   sector: crypto
@@ -394,41 +427,46 @@ companies:
   sector: crypto
   status: active
   source: https://panteracapital.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: cega
+  slug: cega
+  matched_by: domain
 - name: Celer Network
   url: https://www.celer.network/
   sector: crypto
   status: active
   source: https://panteracapital.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: celer-network
+  slug: celer-network
+  matched_by: domain
 - name: Chain
   url: https://chain.com/
   sector: crypto
   status: active
   source: https://panteracapital.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: chain
+  slug: chain
+  matched_by: domain
 - name: Chainflip
   url: https://chainflip.io/
   sector: crypto
   status: active
   source: https://panteracapital.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: chainflip
+  slug: chainflip
+  matched_by: domain
 - name: Chronicled
   url: https://www.chronicled.com/
   sector: crypto
   status: active
   source: https://panteracapital.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: chronicled
+  slug: chronicled
+  matched_by: domain
 - name: Circle
   url: https://www.circle.com/en/
   sector: crypto
@@ -452,9 +490,10 @@ companies:
   sector: crypto
   status: active
   source: https://panteracapital.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: codex-protocol
+  slug: codex-protocol
+  matched_by: name-slug
 - name: Coinbase
   url: https://www.coinbase.com/
   sector: crypto
@@ -469,41 +508,46 @@ companies:
   sector: crypto
   status: active
   source: https://panteracapital.com/portfolio/
-  in_network: false
-  is_api_provider: false
-  suggested_slug: coinflow
+  in_network: true
+  is_api_provider: true
+  slug: coinflow
+  matched_by: domain
 - name: Coinme
   url: https://coinme.com/
   sector: crypto
   status: active
   source: https://panteracapital.com/portfolio/
-  in_network: false
-  is_api_provider: false
-  suggested_slug: coinme
+  in_network: true
+  is_api_provider: true
+  slug: coinme
+  matched_by: domain
 - name: Coins.ph
   url: https://coins.ph/
   sector: crypto
   status: active
   source: https://panteracapital.com/portfolio/
-  in_network: false
-  is_api_provider: false
-  suggested_slug: coinsph
+  in_network: true
+  is_api_provider: true
+  slug: coinsph
+  matched_by: domain
 - name: Coinsuper
   url: https://www.coinsuper.com/
   sector: crypto
   status: active
   source: https://panteracapital.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: coinsuper
+  slug: coinsuper
+  matched_by: domain
 - name: Computable
   url: https://computable.io/
   sector: crypto
   status: active
   source: https://panteracapital.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: computable
+  slug: computable
+  matched_by: domain
 - name: Cosmos
   url: https://cosmos.network/
   sector: crypto
@@ -518,89 +562,100 @@ companies:
   sector: crypto
   status: active
   source: https://panteracapital.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: cypherium
+  slug: cypherium
+  matched_by: domain
 - name: Data
   url: http://data.eco/
   sector: crypto
   status: active
   source: https://panteracapital.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: data
+  slug: data
+  matched_by: domain
 - name: DMarket
   url: https://dmarket.com/ingame-items/item-list/csgo-skins
   sector: crypto
   status: active
   source: https://panteracapital.com/portfolio/
-  in_network: false
-  is_api_provider: false
-  suggested_slug: dmarket
+  in_network: true
+  is_api_provider: true
+  slug: dmarket
+  matched_by: domain
 - name: doc.ai
   url: https://doc.ai/
   sector: crypto
   status: active
   source: https://panteracapital.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: docai
+  slug: docai
+  matched_by: domain
 - name: DODO
   url: https://dodoex.io/
   sector: crypto
   status: active
   source: https://panteracapital.com/portfolio/
-  in_network: false
-  is_api_provider: false
-  suggested_slug: dodo
+  in_network: true
+  is_api_provider: true
+  slug: dodo
+  matched_by: domain
 - name: Eco
   url: https://www.eco.com/
   sector: crypto
   status: active
   source: https://panteracapital.com/portfolio/
-  in_network: false
-  is_api_provider: false
-  suggested_slug: eco
+  in_network: true
+  is_api_provider: true
+  slug: eco
+  matched_by: domain
 - name: EDX Markets
   url: https://www.edxmarkets.com/
   sector: crypto
   status: active
   source: https://panteracapital.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: edx-markets
+  slug: edx-markets
+  matched_by: domain
 - name: Enigma
   url: https://www.enigma.co/
   sector: crypto
   status: dead
   source: https://panteracapital.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: enigma
+  slug: enigma
+  matched_by: name-slug
 - name: Faraway
   url: https://faraway.gg/
   sector: crypto
   status: active
   source: https://panteracapital.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: faraway
+  slug: faraway
+  matched_by: name-slug
 - name: Fast Break Labs
   url: https://www.fastbreaklabs.com/
   sector: crypto
   status: active
   source: https://panteracapital.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: fast-break-labs
+  slug: fast-break-labs
+  matched_by: domain
 - name: Filament
   url: https://www.filament.com/
   sector: crypto
   status: active
   source: https://panteracapital.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: filament
+  slug: filament
+  matched_by: name-slug
 - name: Filecoin
   url: https://filecoin.io/
   sector: crypto
@@ -615,9 +670,10 @@ companies:
   sector: crypto
   status: active
   source: https://panteracapital.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: fintech
+  slug: fintech
+  matched_by: domain
 - name: Docs
   url: https://docs.flashbots.net/
   sector: crypto
@@ -632,65 +688,73 @@ companies:
   sector: crypto
   status: active
   source: https://panteracapital.com/portfolio/
-  in_network: false
-  is_api_provider: false
-  suggested_slug: flexa
+  in_network: true
+  is_api_provider: true
+  slug: flexa
+  matched_by: name-slug
 - name: Fordefi
   url: https://www.fordefi.com/
   sector: crypto
   status: active
   source: https://panteracapital.com/portfolio/
-  in_network: false
-  is_api_provider: false
-  suggested_slug: fordefi
+  in_network: true
+  is_api_provider: true
+  slug: fordefi
+  matched_by: domain
 - name: Four Pillars
   url: https://4pillars.io/
   sector: crypto
   status: active
   source: https://panteracapital.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: four-pillars
+  slug: four-pillars
+  matched_by: domain
 - name: FunFair
   url: https://funfair.io/
   sector: crypto
   status: active
   source: https://panteracapital.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: funfair
+  slug: funfair
+  matched_by: domain
 - name: Genopets
   url: https://www.genopets.me/
   sector: crypto
   status: active
   source: https://panteracapital.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: genopets
+  slug: genopets
+  matched_by: domain
 - name: Gondi
   url: https://www.gondi.xyz/
   sector: crypto
   status: active
   source: https://panteracapital.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: gondi
+  slug: gondi
+  matched_by: domain
 - name: GuildFi
   url: https://guildfi.com/
   sector: crypto
   status: active
   source: https://panteracapital.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: guildfi
+  slug: guildfi
+  matched_by: domain
 - name: Handshake
   url: https://handshake.org/
   sector: crypto
   status: active
   source: https://panteracapital.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: handshake
+  slug: handshake
+  matched_by: name-slug
 - name: Harbor
   url: https://harbor.com/
   sector: crypto
@@ -705,121 +769,136 @@ companies:
   sector: crypto
   status: active
   source: https://panteracapital.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: hedge
+  slug: hedge
+  matched_by: domain
 - name: Heights Labs
   url: https://www.heightslabs.com/
   sector: crypto
   status: active
   source: https://panteracapital.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: heights-labs
+  slug: heights-labs
+  matched_by: domain
 - name: Helika
   url: https://www.helika.io/
   sector: crypto
   status: active
   source: https://panteracapital.com/portfolio/
-  in_network: false
-  is_api_provider: false
-  suggested_slug: helika
+  in_network: true
+  is_api_provider: true
+  slug: helika
+  matched_by: domain
 - name: Hyperspace
   url: https://hyperspace.xyz/
   sector: crypto
   status: active
   source: https://panteracapital.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: hyperspace
+  slug: hyperspace
+  matched_by: domain
 - name: ICON
   url: https://icon.foundation/?lang=en
   sector: crypto
   status: active
   source: https://panteracapital.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: icon
+  slug: icon
+  matched_by: name-slug
 - name: InfiniGods
   url: https://www.infinigods.com/
   sector: crypto
   status: active
   source: https://panteracapital.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: infinigods
+  slug: infinigods
+  matched_by: domain
 - name: Injective
   url: https://injectiveprotocol.com/
   sector: crypto
   status: active
   source: https://panteracapital.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: injective
+  slug: injective
+  matched_by: name-slug
 - name: Instadapp
   url: https://instadapp.io/
   sector: crypto
   status: active
   source: https://panteracapital.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: instadapp
+  slug: instadapp
+  matched_by: domain
 - name: Jambo
   url: https://www.jambo.technology/
   sector: crypto
   status: active
   source: https://panteracapital.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: jambo
+  slug: jambo
+  matched_by: domain
 - name: Karak
   url: https://karak.network/
   sector: crypto
   status: active
   source: https://panteracapital.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: karak
+  slug: karak
+  matched_by: name-slug
 - name: Kik (Kin)
   url: https://www.kik.com/kin/
   sector: crypto
   status: active
   source: https://panteracapital.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: kik-kin
+  slug: kik
+  matched_by: domain
 - name: Koinex
   url: https://koinex.in/
   sector: crypto
   status: dead
   source: https://panteracapital.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: koinex
+  slug: koinex
+  matched_by: domain
 - name: Korbit
   url: https://www.korbit.co.kr/
   sector: crypto
   status: active
   source: https://panteracapital.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: korbit
+  slug: airbility
+  matched_by: domain
 - name: Kusama
   url: https://kusama.network/
   sector: crypto
   status: active
   source: https://panteracapital.com/portfolio/
-  in_network: false
-  is_api_provider: false
-  suggested_slug: kusama
+  in_network: true
+  is_api_provider: true
+  slug: kusama
+  matched_by: domain
 - name: Kyber Network
   url: https://kyber.network/
   sector: crypto
   status: active
   source: https://panteracapital.com/portfolio/
-  in_network: false
-  is_api_provider: false
-  suggested_slug: kyber-network
+  in_network: true
+  is_api_provider: true
+  slug: kyber-network
+  matched_by: domain
 - name: Liquity
   url: https://www.liquity.org/
   sector: crypto
@@ -834,9 +913,10 @@ companies:
   sector: crypto
   status: active
   source: https://panteracapital.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: lith
+  slug: lith
+  matched_by: domain
 - name: Livepeer
   url: https://livepeer.org/
   sector: crypto
@@ -851,129 +931,145 @@ companies:
   sector: crypto
   status: active
   source: https://panteracapital.com/portfolio/
-  in_network: false
-  is_api_provider: false
-  suggested_slug: m0
+  in_network: true
+  is_api_provider: true
+  slug: m0
+  matched_by: domain
 - name: Maecenas
   url: https://www.maecenas.co/
   sector: crypto
   status: active
   source: https://panteracapital.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: maecenas
+  slug: maecenas
+  matched_by: domain
 - name: MakersPlace
   url: https://makersplace.com/
   sector: crypto
   status: active
   source: https://panteracapital.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: makersplace
+  slug: makersplace
+  matched_by: domain
 - name: marginfi
   url: https://www.marginfi.com/
   sector: crypto
   status: active
   source: https://panteracapital.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: marginfi
+  slug: marginfi
+  matched_by: domain
 - name: Maverick Protocol
   url: https://www.mav.xyz/
   sector: crypto
   status: active
   source: https://panteracapital.com/portfolio/
-  in_network: false
-  is_api_provider: false
-  suggested_slug: maverick-protocol
+  in_network: true
+  is_api_provider: true
+  slug: maverick-protocol
+  matched_by: domain
 - name: Meanwhile
   url: https://meanwhile.bm/
   sector: crypto
   status: active
   source: https://panteracapital.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: meanwhile
+  slug: meanwhile
+  matched_by: domain
 - name: Merkle
   url: https://merkledata.io/dashboard
   sector: crypto
   status: active
   source: https://panteracapital.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: merkle
+  slug: merkle
+  matched_by: domain
 - name: MetaLend
   url: https://metalend.tech/
   sector: crypto
   status: active
   source: https://panteracapital.com/portfolio/
-  in_network: false
-  is_api_provider: false
-  suggested_slug: metalend
+  in_network: true
+  is_api_provider: true
+  slug: metalend
+  matched_by: domain
 - name: Metatheory
   url: https://metatheory.gg/
   sector: crypto
   status: active
   source: https://panteracapital.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: metatheory
+  slug: metatheory
+  matched_by: domain
 - name: Meter
   url: https://www.meter.io/
   sector: crypto
   status: active
   source: https://panteracapital.com/portfolio/
-  in_network: false
-  is_api_provider: false
-  suggested_slug: meter
+  in_network: true
+  is_api_provider: true
+  slug: meter
+  matched_by: domain
 - name: Mezo
   url: https://mezo.org/
   sector: crypto
   status: active
   source: https://panteracapital.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: mezo
+  slug: mezo
+  matched_by: domain
 - name: Mina
   url: https://minaprotocol.com/
   sector: crypto
   status: active
   source: https://panteracapital.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: mina
+  slug: mina-protocol
+  matched_by: domain
 - name: Mirror
   url: https://mirror.finance/
   sector: crypto
   status: dead
   source: https://panteracapital.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: mirror
+  slug: mirror
+  matched_by: domain
 - name: MonkeyTilt
   url: https://monkeytilt.com/
   sector: crypto
   status: active
   source: https://panteracapital.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: monkeytilt
+  slug: monkeytilt
+  matched_by: domain
 - name: MoonFrost
   url: https://moonfrost.io/
   sector: crypto
   status: active
   source: https://panteracapital.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: moonfrost
+  slug: moonfrost
+  matched_by: domain
 - name: Morph
   url: https://www.morphl2.io/
   sector: crypto
   status: active
   source: https://panteracapital.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: morph
+  slug: morph
+  matched_by: domain
 - name: Morpho
   url: https://morpho.org/
   sector: crypto
@@ -988,9 +1084,10 @@ companies:
   sector: crypto
   status: active
   source: https://panteracapital.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: multipli
+  slug: multipli
+  matched_by: domain
 - name: NEAR
   url: https://near.org/
   sector: crypto
@@ -1014,9 +1111,10 @@ companies:
   sector: crypto
   status: active
   source: https://panteracapital.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: nitra
+  slug: nitra
+  matched_by: domain
 - name: Notional
   url: https://notional.finance/
   sector: crypto
@@ -1031,106 +1129,118 @@ companies:
   sector: crypto
   status: active
   source: https://panteracapital.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: novig
+  slug: novig
+  matched_by: domain
 - name: Oasis Labs
   url: https://www.oasislabs.com/
   sector: crypto
   status: active
   source: https://panteracapital.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: oasis-labs
+  slug: oasis-labs
+  matched_by: domain
 - name: Obol
   url: https://obol.tech/
   sector: crypto
   status: active
   source: https://panteracapital.com/portfolio/
-  in_network: false
-  is_api_provider: false
-  suggested_slug: obol
+  in_network: true
+  is_api_provider: true
+  slug: obol
+  matched_by: domain
 - name: OMG Network
   url: https://omg.network/
   sector: crypto
   status: active
   source: https://panteracapital.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: omg-network
+  slug: omg-network
+  matched_by: domain
 - name: Omni Network
   url: https://omni.network/
   sector: crypto
   status: active
   source: https://panteracapital.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: omni-network
+  slug: omni-network
+  matched_by: domain
 - name: Ondo Finance
   url: https://ondo.finance/
   sector: crypto
   status: active
   source: https://panteracapital.com/portfolio/
-  in_network: false
-  is_api_provider: false
-  suggested_slug: ondo-finance
+  in_network: true
+  is_api_provider: true
+  slug: ondo-finance
+  matched_by: domain
 - name: OpenMind
   url: https://openmind.org/
   sector: crypto
   status: active
   source: https://panteracapital.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: openmind
+  slug: openmind
+  matched_by: name-slug
 - name: OpenToken
   url: https://opentoken.com/
   sector: crypto
   status: active
   source: https://panteracapital.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: opentoken
+  slug: opentoken
+  matched_by: domain
 - name: Orderly Network
   url: https://orderly.network/
   sector: crypto
   status: active
   source: https://panteracapital.com/portfolio/
-  in_network: false
-  is_api_provider: false
-  suggested_slug: orderly-network
+  in_network: true
+  is_api_provider: true
+  slug: orderly-network
+  matched_by: domain
 - name: Origin Protocol
   url: https://www.originprotocol.com/en
   sector: crypto
   status: active
   source: https://panteracapital.com/portfolio/
-  in_network: false
-  is_api_provider: false
-  suggested_slug: origin-protocol
+  in_network: true
+  is_api_provider: true
+  slug: origin-protocol
+  matched_by: domain
 - name: Orthogonal
   url: https://www.orthogonal.com/
   sector: crypto
   status: active
   source: https://panteracapital.com/portfolio/
-  in_network: false
-  is_api_provider: false
-  suggested_slug: orthogonal
+  in_network: true
+  is_api_provider: true
+  slug: orthogonal
+  matched_by: domain
 - name: Parallel
   url: https://parallel.fi/
   sector: crypto
   status: active
   source: https://panteracapital.com/portfolio/
-  slug: parallel
+  slug: parallel-finance
   in_network: true
   is_api_provider: false
-  matched_by: name-slug
+  matched_by: domain
 - name: Perion
   url: https://perion.gg/
   sector: crypto
   status: active
   source: https://panteracapital.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: perion
+  slug: perion
+  matched_by: domain
 - name: Pinata
   url: https://www.pinata.cloud/
   sector: crypto
@@ -1145,35 +1255,37 @@ companies:
   sector: crypto
   status: active
   source: https://panteracapital.com/portfolio/
-  slug: goto-gojek
+  slug: erudifi
   in_network: true
-  is_api_provider: true
+  is_api_provider: false
   matched_by: domain
 - name: Polkadot
   url: https://polkadot.network/
   sector: crypto
   status: active
   source: https://panteracapital.com/portfolio/
-  slug: polkadot
+  slug: kusama
   in_network: true
   is_api_provider: true
-  matched_by: name-slug
+  matched_by: domain
 - name: Pontem
   url: https://pontem.network/
   sector: crypto
   status: active
   source: https://panteracapital.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: pontem
+  slug: pontem
+  matched_by: domain
 - name: PowerTrade
   url: https://power.trade/
   sector: crypto
   status: active
   source: https://panteracapital.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: powertrade
+  slug: powertrade
+  matched_by: domain
 - name: Prism
   url: https://prism.co/
   sector: crypto
@@ -1188,274 +1300,307 @@ companies:
   sector: crypto
   status: active
   source: https://panteracapital.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: psyoptions
+  slug: psyoptions
+  matched_by: domain
 - name: Rangers Protocol
   url: https://www.rangersprotocol.com/
   sector: crypto
   status: active
   source: https://panteracapital.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: rangers-protocol
+  slug: rangers-protocol
+  matched_by: domain
 - name: Rarify
   url: https://rarify.tech/
   sector: crypto
   status: active
   source: https://panteracapital.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: rarify
+  slug: rarify
+  matched_by: domain
 - name: Reflexer
   url: https://reflexer.finance/
   sector: crypto
   status: active
   source: https://panteracapital.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: reflexer
+  slug: reflexer
+  matched_by: domain
 - name: Revolving Games
   url: https://revolving.games/
   sector: crypto
   status: active
   source: https://panteracapital.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: revolving-games
+  slug: revolving-games
+  matched_by: name-slug
 - name: Rialo
   url: https://www.rialo.io/
   sector: crypto
   status: active
   source: https://panteracapital.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: rialo
+  slug: rialo
+  matched_by: domain
 - name: Ripio
   url: https://www.ripio.com/ar/
   sector: crypto
   status: active
   source: https://panteracapital.com/portfolio/
-  in_network: false
-  is_api_provider: false
-  suggested_slug: ripio
+  in_network: true
+  is_api_provider: true
+  slug: ripio
+  matched_by: domain
 - name: Ripple
   url: https://ripple.com/
   sector: crypto
   status: active
   source: https://panteracapital.com/portfolio/
-  slug: xrpl
+  slug: ripple-labs
   in_network: true
-  is_api_provider: false
+  is_api_provider: true
   matched_by: domain
 - name: Sahara AI
   url: https://saharaai.com/
   sector: crypto
   status: active
   source: https://panteracapital.com/portfolio/
-  in_network: false
-  is_api_provider: false
-  suggested_slug: sahara-ai
+  in_network: true
+  is_api_provider: true
+  slug: sahara-ai
+  matched_by: domain
 - name: Sender
   url: https://senderwallet.io/
   sector: crypto
   status: active
   source: https://panteracapital.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: sender
+  slug: sender
+  matched_by: domain
 - name: Sentient
   url: https://sentient.xyz/
   sector: crypto
   status: active
   source: https://panteracapital.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: sentient
+  slug: sentient
+  matched_by: domain
 - name: Classic
   url: https://classic.shapeshift.com/#/coins
   sector: crypto
   status: active
   source: https://panteracapital.com/portfolio/
-  in_network: false
-  is_api_provider: false
-  suggested_slug: classic
+  in_network: true
+  is_api_provider: true
+  slug: shapeshift
+  matched_by: domain
 - name: Space Runners
   url: https://spacerunners.com/
   sector: crypto
   status: active
   source: https://panteracapital.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: space-runners
+  slug: space-runners
+  matched_by: domain
 - name: Stader Labs
   url: https://www.staderlabs.com/
   sector: crypto
   status: active
   source: https://panteracapital.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: stader-labs
+  slug: stader-labs
+  matched_by: domain
 - name: Staked
   url: https://staked.us/
   sector: crypto
   status: active
   source: https://panteracapital.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: staked
+  slug: staked
+  matched_by: domain
 - name: StarkWare
   url: https://starkware.co/
   sector: crypto
   status: active
   source: https://panteracapital.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: starkware
+  slug: starkware
+  matched_by: domain
 - name: Sturdy
   url: https://sturdy.finance/
   sector: crypto
   status: active
   source: https://panteracapital.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: sturdy
+  slug: sturdy
+  matched_by: domain
 - name: Sumer
   url: https://www.sumer.money/
   sector: crypto
   status: active
   source: https://panteracapital.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: sumer
+  slug: sumer
+  matched_by: domain
 - name: Summoners Arena
   url: https://summonersarena.io/
   sector: crypto
   status: active
   source: https://panteracapital.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: summoners-arena
+  slug: summoners-arena
+  matched_by: domain
 - name: Surf
   url: https://asksurf.ai/
   sector: crypto
   status: active
   source: https://panteracapital.com/portfolio/
-  in_network: false
-  is_api_provider: false
-  suggested_slug: surf
+  in_network: true
+  is_api_provider: true
+  slug: surf
+  matched_by: domain
 - name: SynFutures
   url: https://www.synfutures.com/
   sector: crypto
   status: active
   source: https://panteracapital.com/portfolio/
-  in_network: false
-  is_api_provider: false
-  suggested_slug: synfutures
+  in_network: true
+  is_api_provider: true
+  slug: synfutures
+  matched_by: domain
 - name: Tagomi
   url: https://www.tagomi.com/
   sector: crypto
   status: acquired
   source: https://panteracapital.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: tagomi
+  slug: tagomi
+  matched_by: domain
 - name: Brine (Tanx)
   url: https://www.brine.fi/
   sector: crypto
   status: active
   source: https://panteracapital.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: brine-tanx
+  slug: brine-tanx
+  matched_by: domain
 - name: Tari
   url: https://www.tari.com/
   sector: crypto
   status: active
   source: https://panteracapital.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: tari
+  slug: tari
+  matched_by: domain
 - name: Teahouse
   url: https://teahouse.finance/
   sector: crypto
   status: active
   source: https://panteracapital.com/portfolio/
-  in_network: false
-  is_api_provider: false
-  suggested_slug: teahouse
+  in_network: true
+  is_api_provider: true
+  slug: teahouse
+  matched_by: domain
 - name: Temple
   url: https://www.temple.capital/
   sector: crypto
   status: active
   source: https://panteracapital.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: temple
+  slug: temple
+  matched_by: domain
 - name: Thruster
   url: https://www.thruster.finance/
   sector: crypto
   status: active
   source: https://panteracapital.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: thruster
+  slug: thruster
+  matched_by: domain
 - name: ThunderCore
   url: https://www.thundercore.com/
   sector: crypto
   status: active
   source: https://panteracapital.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: thundercore
+  slug: thundercore
+  matched_by: domain
 - name: TransCrypts
   url: https://www.transcrypts.com/
   sector: crypto
   status: active
   source: https://panteracapital.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: transcrypts
+  slug: transcrypts
+  matched_by: domain
 - name: Transparent Systems
   url: https://www.transparentsystems.com/
   sector: crypto
   status: active
   source: https://panteracapital.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: transparent-systems
+  slug: transparent-systems
+  matched_by: domain
 - name: TrueFlip
   url: https://trueflip.io/
   sector: crypto
   status: active
   source: https://panteracapital.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: trueflip
+  slug: trueflip
+  matched_by: domain
 - name: TurboFlow
   url: https://www.turboflow.xyz/
   sector: crypto
   status: active
   source: https://panteracapital.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: turboflow
+  slug: turboflow
+  matched_by: domain
 - name: Unbound
   url: https://www.unbound.finance/
   sector: crypto
   status: active
   source: https://panteracapital.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: unbound
+  slug: unbound
+  matched_by: domain
 - name: Unikrn
   url: https://unikrn.com/
   sector: crypto
   status: active
   source: https://panteracapital.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: unikrn
+  slug: unikrn
+  matched_by: domain
 - name: Uniswap
   url: https://uniswap.org/
   sector: crypto
@@ -1479,9 +1624,10 @@ companies:
   sector: crypto
   status: active
   source: https://panteracapital.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: urbit
+  slug: urbit
+  matched_by: domain
 - name: VALR
   url: https://www.valr.com/
   sector: crypto
@@ -1496,65 +1642,73 @@ companies:
   sector: crypto
   status: dead
   source: https://panteracapital.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: vauld
+  slug: vauld
+  matched_by: domain
 - name: Veem
   url: https://www.veem.com/
   sector: crypto
   status: active
   source: https://panteracapital.com/portfolio/
-  in_network: false
-  is_api_provider: false
-  suggested_slug: veem
+  in_network: true
+  is_api_provider: true
+  slug: veem
+  matched_by: domain
 - name: Vega
   url: https://vega.xyz/
   sector: crypto
   status: active
   source: https://panteracapital.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: vega
+  slug: vega
+  matched_by: name-slug
 - name: Virtue Poker
   url: https://virtue.poker/
   sector: crypto
   status: active
   source: https://panteracapital.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: virtue-poker
+  slug: virtue-poker
+  matched_by: domain
 - name: WAX
   url: https://wax.io/
   sector: crypto
   status: active
   source: https://panteracapital.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: wax
+  slug: wax
+  matched_by: domain
 - name: Wintermute
   url: https://www.wintermute.com/
   sector: crypto
   status: active
   source: https://panteracapital.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: wintermute
+  slug: wintermute
+  matched_by: domain
 - name: Xapo
   url: https://xapo.com/
   sector: crypto
   status: acquired
   source: https://panteracapital.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: xapo
+  slug: xapo
+  matched_by: name-slug
 - name: YoloRekt
   url: https://www.yolorekt.finance/
   sector: crypto
   status: active
   source: https://panteracapital.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: yolorekt
+  slug: yolorekt
+  matched_by: domain
 - name: Zcash
   url: https://z.cash/
   sector: crypto
@@ -1569,6 +1723,7 @@ companies:
   sector: crypto
   status: active
   source: https://panteracapital.com/portfolio/
-  in_network: false
-  is_api_provider: false
-  suggested_slug: zircuit
+  in_network: true
+  is_api_provider: true
+  slug: zircuit
+  matched_by: domain

@@ -12,6 +12,17 @@ description: >-
   token stage through growth-stage equity, writing checks from roughly $500K to $50M+ and having led about
   half of its 200+ investments since 2013. Notable investments include Coinbase, Circle, Ripple, Uniswap,
   Bitstamp, Polkadot, Near, Filecoin, StarkWare, and Ondo Finance.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 image: https://panteracapital.com/favicon.ico
 x-type: venture-capital
 x-category: Venture Capital
