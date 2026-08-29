@@ -12,6 +12,17 @@ description: >-
   token stage through growth-stage equity, writing checks from roughly $500K to $50M+ and having led about
   half of its 200+ investments since 2013. Notable investments include Coinbase, Circle, Ripple, Uniswap,
   Bitstamp, Polkadot, Near, Filecoin, StarkWare, and Ondo Finance.
+deliveryModel:
+  model: unknown
+  open_source: false
+  commercial: false
+  callable_host: false
+  label: Delivery model not determined — needs a product licence on record
+  confidence: low
+  source:
+  - none
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
