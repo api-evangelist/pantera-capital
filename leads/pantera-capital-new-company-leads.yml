@@ -1,4 +1,60 @@
-generated: '2026-07-22'
+generated: '2026-10-18'
 method: derived
 source_vc: pantera-capital
-leads: []
+leads:
+- name: Amp
+  url: https://amptoken.org/
+  suggested_slug: amptoken-org
+  sector: crypto
+  source_vc: pantera-capital
+  source: https://panteracapital.com/portfolio/
+  stub_created: false
+- name: BitClout (DeSo)
+  url: https://bitclout.com/
+  suggested_slug: bitclout-com
+  sector: crypto
+  source_vc: pantera-capital
+  source: https://panteracapital.com/portfolio/
+  stub_created: false
+- name: Enigma
+  url: https://www.enigma.co/
+  suggested_slug: enigma
+  sector: crypto
+  source_vc: pantera-capital
+  source: https://panteracapital.com/portfolio/
+  stub_created: false
+- name: Handshake
+  url: https://handshake.org/
+  suggested_slug: handshake-org
+  sector: crypto
+  source_vc: pantera-capital
+  source: https://panteracapital.com/portfolio/
+  stub_created: false
+- name: Injective
+  url: https://injectiveprotocol.com/
+  suggested_slug: injectiveprotocol-com
+  sector: crypto
+  source_vc: pantera-capital
+  source: https://panteracapital.com/portfolio/
+  stub_created: false
+- name: Revolving Games
+  url: https://revolving.games/
+  suggested_slug: revolving-games
+  sector: crypto
+  source_vc: pantera-capital
+  source: https://panteracapital.com/portfolio/
+  stub_created: false
+- name: Vega
+  url: https://vega.xyz/
+  suggested_slug: vega
+  sector: crypto
+  source_vc: pantera-capital
+  source: https://panteracapital.com/portfolio/
+  stub_created: false
+- name: Xapo
+  url: https://xapo.com/
+  suggested_slug: xapo-com
+  sector: crypto
+  source_vc: pantera-capital
+  source: https://panteracapital.com/portfolio/
+  stub_created: false

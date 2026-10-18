@@ -3,9 +3,9 @@ method: searched
 source: https://panteracapital.com/portfolio/
 summary:
   portfolio_total: 191
-  in_network: 191
-  api_providers: 62
-  missing: 0
+  in_network: 183
+  api_providers: 61
+  missing: 8
   stubs_created: 0
 companies:
 - name: 0x
@@ -85,10 +85,10 @@ companies:
   sector: crypto
   status: active
   source: https://panteracapital.com/portfolio/
-  in_network: true
+  in_network: false
   is_api_provider: false
-  slug: amp
-  matched_by: name-slug
+  x-name-collision: amp
+  suggested_slug: amptoken-org
 - name: Ampleforth
   url: https://www.ampleforth.org/
   sector: crypto
@@ -319,10 +319,10 @@ companies:
   sector: crypto
   status: active
   source: https://panteracapital.com/portfolio/
-  in_network: true
+  in_network: false
   is_api_provider: false
-  slug: bitclout-deso
-  matched_by: name-slug
+  x-name-collision: bitclout-deso
+  suggested_slug: bitclout-com
 - name: BitDAO
   url: https://www.bitdao.io/
   sector: crypto
@@ -418,7 +418,7 @@ companies:
   sector: crypto
   status: active
   source: https://panteracapital.com/portfolio/
-  slug: brave
+  slug: brave-browser
   in_network: true
   is_api_provider: true
   matched_by: domain
@@ -625,10 +625,9 @@ companies:
   sector: crypto
   status: dead
   source: https://panteracapital.com/portfolio/
-  in_network: true
+  in_network: false
   is_api_provider: false
-  slug: enigma
-  matched_by: name-slug
+  suggested_slug: enigma
 - name: Faraway
   url: https://faraway.gg/
   sector: crypto
@@ -672,7 +671,7 @@ companies:
   source: https://panteracapital.com/portfolio/
   in_network: true
   is_api_provider: false
-  slug: fintech
+  slug: fin-tech
   matched_by: domain
 - name: Docs
   url: https://docs.flashbots.net/
@@ -751,10 +750,10 @@ companies:
   sector: crypto
   status: active
   source: https://panteracapital.com/portfolio/
-  in_network: true
+  in_network: false
   is_api_provider: false
-  slug: handshake
-  matched_by: name-slug
+  x-name-collision: handshake
+  suggested_slug: handshake-org
 - name: Harbor
   url: https://harbor.com/
   sector: crypto
@@ -823,10 +822,10 @@ companies:
   sector: crypto
   status: active
   source: https://panteracapital.com/portfolio/
-  in_network: true
+  in_network: false
   is_api_provider: false
-  slug: injective
-  matched_by: name-slug
+  x-name-collision: injective
+  suggested_slug: injectiveprotocol-com
 - name: Instadapp
   url: https://instadapp.io/
   sector: crypto
@@ -861,7 +860,7 @@ companies:
   source: https://panteracapital.com/portfolio/
   in_network: true
   is_api_provider: false
-  slug: kik
+  slug: kik-kin
   matched_by: domain
 - name: Koinex
   url: https://koinex.in/
@@ -879,7 +878,7 @@ companies:
   source: https://panteracapital.com/portfolio/
   in_network: true
   is_api_provider: false
-  slug: airbility
+  slug: 21gram
   matched_by: domain
 - name: Kusama
   url: https://kusama.network/
@@ -1255,7 +1254,7 @@ companies:
   sector: crypto
   status: active
   source: https://panteracapital.com/portfolio/
-  slug: erudifi
+  slug: actavis
   in_network: true
   is_api_provider: false
   matched_by: domain
@@ -1336,10 +1335,10 @@ companies:
   sector: crypto
   status: active
   source: https://panteracapital.com/portfolio/
-  in_network: true
+  in_network: false
   is_api_provider: false
-  slug: revolving-games
-  matched_by: name-slug
+  x-name-collision: revolving-games
+  suggested_slug: revolving-games
 - name: Rialo
   url: https://www.rialo.io/
   sector: crypto
@@ -1363,9 +1362,9 @@ companies:
   sector: crypto
   status: active
   source: https://panteracapital.com/portfolio/
-  slug: ripple-labs
+  slug: hidden-road
   in_network: true
-  is_api_provider: true
+  is_api_provider: false
   matched_by: domain
 - name: Sahara AI
   url: https://saharaai.com/
@@ -1660,10 +1659,9 @@ companies:
   sector: crypto
   status: active
   source: https://panteracapital.com/portfolio/
-  in_network: true
+  in_network: false
   is_api_provider: false
-  slug: vega
-  matched_by: name-slug
+  suggested_slug: vega
 - name: Virtue Poker
   url: https://virtue.poker/
   sector: crypto
@@ -1696,10 +1694,10 @@ companies:
   sector: crypto
   status: acquired
   source: https://panteracapital.com/portfolio/
-  in_network: true
+  in_network: false
   is_api_provider: false
-  slug: xapo
-  matched_by: name-slug
+  x-name-collision: xapo
+  suggested_slug: xapo-com
 - name: YoloRekt
   url: https://www.yolorekt.finance/
   sector: crypto
